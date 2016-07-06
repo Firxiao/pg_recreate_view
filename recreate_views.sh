@@ -52,7 +52,7 @@ done </tmp/deps.list
 
 drop_view()
 {
-psql -h $HOST -U $DB2_USER $DB_NAME -c "drop view $view CASCADE;"
+psql -h $HOST -U $DB_USER $DB_NAME -c "drop view $view CASCADE;"
 }
 
 
