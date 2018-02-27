@@ -1,12 +1,12 @@
 ### pg_recreate_view
 recreate view tool for postgresql
-####install
+#### install
 ```
 #git clone  https://github.com/Firxiao/pg_recreate_view 
 #cd pg_recreate_view
 #chmod +x recreate_views.sh
 ```
-####make config correct
+#### make config correct
 ```
 ###config
 HOST="ip or hostname"
@@ -16,7 +16,7 @@ DB_PASSWORD="db password"
 ###
 
 ```
-####run
+#### run
 
 ```
 #./recreate_views.sh
